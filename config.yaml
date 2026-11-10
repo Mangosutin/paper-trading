@@ -1,0 +1,15 @@
+account:
+  initial_cash: 1000000
+
+data:
+  provider: yfinance
+  poll_seconds: 60
+  cache_daily: true
+
+trading:
+  enforce_lot: true
+  fee_model: zero
+  slippage_bps: 0
+
+screener:
+  enabled: false
